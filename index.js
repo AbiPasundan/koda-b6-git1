@@ -3,3 +3,8 @@
 // versioning
 // versi 1 tidak interaktip versi 2 interaktip
 // koda-b6-git1
+
+import ctf from "./src/ctf.js";
+
+
+console.log(ctf(0));
