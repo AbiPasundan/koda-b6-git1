@@ -5,6 +5,8 @@
 // koda-b6-git1
 
 import ctf from "./src/ctf.js";
+import ctr from "./src/ctr.js";
 
 
 console.log(ctf(0));
+console.log(ctr(0));
