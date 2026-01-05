@@ -1,0 +1,27 @@
+{
+  "name": "conv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon  index.js",
+    "help": "nodemon -h",
+    "inspect": "nodemon --inspect ./server.js 80",
+    "test": "npx eslint --global describe --global it tests/",
+    "lint": "npx eslint .",
+    "lint-fix": "npx eslint . --fix",
+    "lint-rule": "npx eslint --print-config index.js",
+    "lint-debug": "npx eslint --debug index.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "globals": "^17.0.0",
+    "nodemon": "^3.1.11"
+  }
+}
