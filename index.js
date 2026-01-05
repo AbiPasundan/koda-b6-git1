@@ -6,7 +6,9 @@
 
 import ctf from "./src/ctf.js";
 import ctr from "./src/ctr.js";
+import ctk from "./src/ctk.js";
 
 
 console.log(ctf(0));
 console.log(ctr(0));
+console.log(ctk(0));
