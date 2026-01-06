@@ -1,7 +1,7 @@
 // 273
 export default function ctf(params) {
-    if (typeof params === "number") {
-        return (params * 273);
+    if(typeof params !== "number"){
+        console.log("input bukan angka");
     }
-    return "input tidack palid";
+    return params + 273;
 }

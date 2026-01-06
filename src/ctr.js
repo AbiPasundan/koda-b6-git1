@@ -1,6 +1,6 @@
 export default function ctr(params) {
-    if (typeof params === "number") {
-        return params * 4/5;
+    if(typeof params !== "number"){
+        console.log("input bukan angka");
     }
-    return "input tidack palid";
+    return params * 4/5;
 }

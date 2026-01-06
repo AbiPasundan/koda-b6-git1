@@ -1,6 +1,6 @@
 export default function ctf(params) {
-    if (typeof params === "number") {
-        return (params * 9/5) + 32;
+    if(typeof params !== "number"){
+        console.log("input bukan angka");
     }
-    return "input tidack palid";
+    return (params * 9/5) + 32;
 }
